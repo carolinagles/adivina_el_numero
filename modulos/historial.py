@@ -40,13 +40,13 @@ def rendimiento_jugadores():
     df = pd.read_excel(estadisticas)
 
     fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(12, 3))
-
+    
     # mejores jugadores
     df[df['Resultado'] == 'Ganado']['Nombre'].value_counts().plot.bar(
         ax=ax1,
         title="★★★",
-        color="white",
-        edgecolor="gold"
+        color="darkcyan",
+        edgecolor="white"
     )
     ax1.set_ylabel("Victorias")
     ax1.set_xlabel("Jugadores con más partidas ganadas")
@@ -56,8 +56,8 @@ def rendimiento_jugadores():
     df[df['Resultado'] == 'Perdido']['Nombre'].value_counts().plot.bar(
         ax=ax2,
         title="✗✗✗",
-        color="white",
-        edgecolor="red"
+        color="tomato",
+        edgecolor="white"
     )
     ax2.set_ylabel("Derrotas")
     ax2.set_xlabel("Jugadores con más partidas perdidas")

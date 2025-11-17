@@ -1,10 +1,11 @@
 """
 Historial de partidas
 
-- Mostrar en formato tabla la ultimas 20 partidas 
-- Mejores Jugadores/peores en gráfico de barras
-- Gráfico de pastele para ganados/perdidos
+- Mostrar en formato tabla la últimas 20 partidas 
+- Mejores/peores jugadores en gráfico de barras
+- Gráfico de pastel para porcentaje de juegos ganados/perdidos
 """
+
 import pandas as pd
 import matplotlib.pyplot as plt
 import openpyxl

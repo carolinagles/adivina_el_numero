@@ -1,9 +1,10 @@
 """
 Menu principal
 
-Se crea la bienvenida a usarios
-opciones para jugar, ver historial de juegos o salir
+Bienvenida a usarios
+Menú de opciones para jugar, ver historial de juegos o salir
 """
+
 from .juego import solitario, doble
 from .historial import historial
 import getpass

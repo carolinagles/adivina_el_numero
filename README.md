@@ -35,3 +35,5 @@ En ambos menús debe chequearse que la opción elegida es válida y avisar en ca
 
 * Al finalizar cada partida (ya sea ganada o perdida), se pide el **nombre del jugador**.
 * Se guarda esta información junto con el resultado de la partida en un **fichero Excel**.
+
+### María Carolina González Bernal
